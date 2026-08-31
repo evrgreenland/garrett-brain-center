@@ -2,7 +2,7 @@
   "name": "Brain Center",
   "short_name": "Brain",
   "description": "Shared capture and execution center for Garrett and Gray's",
-  "start_url": "/garrett-brain-center/",
+  "start_url": "/garrett-brain-center/mobile.html",
   "scope": "/garrett-brain-center/",
   "display": "standalone",
   "background_color": "#071018",
