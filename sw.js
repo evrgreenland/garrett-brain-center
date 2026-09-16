@@ -1,5 +1,5 @@
-const CACHE='brain-center-v3';
-const SHELL=['./','./index.html','./brain.html','./calendar-connect.html','./manifest.webmanifest','./icon.svg'];
+const CACHE='brain-center-v4';
+const SHELL=['./','./index.html','./brain.html','./history.html','./calendar-connect.html','./manifest.webmanifest','./icon.svg'];
 const TRANSCRIBE='https://uvzivnoljpdgmasuzqqv.supabase.co/functions/v1/transcribe-service';
 
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)));self.skipWaiting()});
